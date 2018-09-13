@@ -2,6 +2,7 @@ library(ggplot2) #Produces visual representations
 library(tidycensus) #Loads US Census files and data for "tidyverse" and "sf"
 library(tidyverse) #Supports "tidy" functions
 
+#You can request your Census Key Here: https://api.census.gov/data/key_signup.html
 census_api_key('Your Census Key Here', install=TRUE, overwrite=TRUE) #Authenticates the access to the API
 
 # You can find a list of variables here: https://api.census.gov/data/2016/acs/acs5/variables.html

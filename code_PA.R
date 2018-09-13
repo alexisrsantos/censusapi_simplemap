@@ -2,6 +2,7 @@ library(ggplot2) #Produces visual representations
 library(tidycensus) #Loads US Census files and data for "tidyverse" and "sf"
 library(tidyverse) #Supports "tidy" functions
 
+#You can request your Census Key Here: https://api.census.gov/data/key_signup.html
 census_api_key('Your Census Key Here', install=TRUE, overwrite=TRUE) #Authenticates the access to the API
 
 vars<-c("B05001_001E","B05001_006E") #Number of Citizens and Total Pop by County
